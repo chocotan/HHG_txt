@@ -1,0 +1,79 @@
+0bgm 0 vol 0
+0wait 1
+0bgm 0 replay
+0bgm 0 fade 60 0 100
+0cg 4 cb01,1,1,1,6,0,0,0,0,1
+0rdraw
+0pcm B_ST_02_023
+!翠名
+ 「ちょ、ちょっと、図書室の様子見てきますね！」
+<CLS>
+0se 1 se411o
+0bg 4
+0cg 4
+0fg 4
+0eg 4
+0pl 4
+0rdraw
+ ぱたぱたと足音を上げながら、
+ \n翠名が慌てて部室を出て行く。\@
+0wait
+0wait 20
+0se 0 se300a
+ 
+<CLS>
+0cg 3 ce01,1,0,6,1,0,0,0,0,3
+0rdraw
+0pcm E_ST_02_098
+!夢子
+ 「あれ、センパイどうかしましたか？」\@
+0wait
+0se 2 se000
+0#200 = 3
+0#201 = 140
+0#202 = 0
+0cg #200 attr 100 205 206 207 208 209
+0if ( #209 == 0xff00ff00 ) str 98
+0if ( #209 == 0xffff0000 ) str 98 ll
+0if ( #209 == 0xff0000ff ) str 98 l
+0if ( #209 == 0xff000000 ) str 98 s
+0cg #200 attr 101 205 206 207 208 209
+0if ( #209 == 0xff00ff00 ) #204 = 0
+0if ( #209 == 0xffff0000 ) #204 = 1
+0if ( #209 == 0xff0000ff ) #204 = 2
+0if ( #204 == 1 ) call em_leftset
+0if ( #204 == 2 ) call em_rightset
+0strn 99 #201
+0call chr_set
+0if ( #202 == 0 ) call em_normal
+0if ( #202 >= 1 ) call em_$str99
+0if ( #202 != 0 ) call em_normal
+0rdraw
+ 
+<CLS>
+0fg
+0rdraw
+!久司朗
+ 「あ、いや……今のうちにインタビュー内容を
+ \n軽くまとめておこうか」
+<CLS>
+0cg 3 ce02,1,1,4,1,0,0,0,0,2
+0rdraw
+0pcm E_ST_02_099
+!夢子
+ 「あ、はーい。そうしましょう！」\@
+0wait
+0pl 3 arc 18 180 360 0 14 
+0wait
+0wait 30
+0cg 3 ce02,1,1,4,7,0,0,0,0,2
+0rdraw
+ 
+<CLS>
+ 今はやるべきことをやっておくとしよう。
+<CLS>
+ さり気なく顔へと手を添えて、指の間より世界を見る。
+<CLS>
+0frameoff fade 30
+0wait
+0next ST_02_4

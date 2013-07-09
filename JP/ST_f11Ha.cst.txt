@@ -1,0 +1,94 @@
+0#300 = 1 
+ 彼女の顔を白く染め上げることに決めた。
+<CLS>
+ 昂ぶる衝動をそのままに、腰の位置を動かし、
+ \n射精に備える。
+<CLS>
+0se 0 se900a
+0eg 0 hf01,a,5,3
+0rdraw
+0pcm F_ST_F11H_032
+!詩子
+ 「……ん……」\@
+0wait
+0wait 30
+0se 1 se900a
+ 
+<CLS>
+ 俺の動きから察したのか、詩子が目を閉じて
+ \n口をあけた。
+<CLS>
+ すっと差し出された舌は、俺の精液を 
+ \n待ち焦がれているようで。
+<CLS>
+ 瞬間、俺の理性の壁が打ち砕かれた。 
+<CLS>
+!久司朗
+ 「詩子さん！」
+<CLS>
+0eg 0 hf01,1,5,3,0,2
+0rdraw
+ 叫ぶと同時に俺のモノをグッと引き抜いた。
+<CLS>
+ そして、次の瞬間。
+<CLS>
+0pl 31 disp 1
+0eg 0 hf01,1,5,3,0,4
+0rdraw 8
+0pcm F_ST_F11H_033
+!詩子
+ 「んぅ！？」\@
+0wait
+0pl 31 disp 0
+0rdraw 10
+0wait
+0pl 31 disp 1
+0rdraw 8
+0wait
+0pl 31 disp 0
+0rdraw 10
+0wait
+0pl 31 disp 1
+0rdraw 8
+0wait
+0pl 31 disp 0
+0rdraw 40
+ 
+<CLS>
+0pl 31 disp 1
+0pl 16 pos 1380 765
+0eg 0
+0eg 2 hf01l,1,5,3,0,4 @ @ @ 16
+0rdraw 8
+ 堰を切ったかのような勢いで、
+ \n白い液体が詩子の顔に降り注ぐ。\@
+0wait
+0pl 31 disp 0
+0rdraw 10
+0wait
+0pl 31 disp 1
+0rdraw 8
+0wait
+0pl 31 disp 0
+0eg 0
+0pl 16 pos 1380 765
+0eg 2 hf01l,1,5,3,0,7
+0rdraw 60
+ 
+<CLS>
+!久司朗
+ 「はぁ……はぁ……」
+<CLS>
+ 二度目だというのに、
+ \nその量は自分でも驚くほどで。
+<CLS>
+ 見る見るうちに詩子の柔肌を
+ \n白く塗りたくっていく。
+<CLS>
+0eg 2 hf01l,1,2,4,0,8
+0rdraw 30
+0pcm F_ST_F11H_034
+!詩子
+ 「……すごい……こんなにいっぱい……」
+<CLS>
+0next ST_f11H_2

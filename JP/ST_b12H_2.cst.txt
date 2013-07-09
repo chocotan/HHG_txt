@@ -1,0 +1,104 @@
+0if ( #399 == 1 ) eg 1 hb06l,1,1,5,1,2,7
+0if ( #399 == 2 ) eg 1 hb06l,1,1,5,0,1,5
+0rdraw
+0pcm B_ST_b12H_119
+!翠名
+ 「……やっぱり……こうなりました」
+<CLS>
+!久司朗
+ 「何が？」
+<CLS>
+0if ( #399 == 1 ) eg 1 hb06l,1,1,2,1,2,7
+0if ( #399 == 2 ) eg 1 hb06l,1,1,2,0,1,5
+0rdraw
+0pcm B_ST_b12H_120
+!翠名
+ 「その……さっき、制服が汚れる未来が見えたので」
+<CLS>
+ くす、と小さく笑いながら翠名が俺を見上げる。
+<CLS>
+0if ( #399 == 1 ) eg 1 hb06l,1,1,1,1,2,7
+0if ( #399 == 2 ) eg 1 hb06l,1,1,1,0,1,5
+0rdraw
+0pcm B_ST_b12H_121
+!翠名
+ 「あらかじめ、スカートを脱いでおきました」
+<CLS>
+!久司朗
+ 「……ああ、なるほど。そうだったんだ」
+<CLS>
+0pcm B_ST_b12H_122
+!翠名
+ 「私の予知通り、久司朗くんは元気でした」
+<CLS>
+ ……そんなことを言われると、恥ずかしくてたまらない。
+ \n思わず視線をそらしてしまう。
+<CLS>
+0if ( #399 == 1 ) eg 1 hb06,1,2,3,1,2,7
+0if ( #399 == 2 ) eg 1 hb06,1,2,3,0,1,5
+0rdraw 40
+0pcm B_ST_b12H_123
+!翠名
+ 「あ……でも、あ、あんなに……気持ち良いのは
+ \n……予測出来なくて……その……」\@
+0wait
+ 
+<CLS>
+0if ( #399 == 1 ) eg 1 hb06,1,1,2,1,2,7
+0if ( #399 == 2 ) eg 1 hb06,1,1,2,0,1,5
+0rdraw
+0pcm B_ST_b12H_124
+!翠名
+ 「……お相子、ということで」
+<CLS>
+ 何がどう相子なのかは分からなかったけど。
+<CLS>
+ そう言われながら頬へと口付けをされると、
+ \nそれでいいような気にもなってくる。
+<CLS>
+ 時には流されるのも悪くはない。そんな気になりながら、
+ \nお返しとばかりに翠名を抱きしめていた。
+<CLS>
+0#41 = 11
+0if (#40 == 1) next rc_end
+0end_of_kaisou #41
+0bgm 0 end 180
+0frameoff fade 30
+0wait
+0pl
+0bg
+0eg
+0cg
+0rdraw 90
+0wait
+0wait 60
+0pl 16 disp 0
+0pl [1-5] disp 1
+0wait
+0view 1
+0initialize_header
+0particle stop
+0place
+0wait
+0bgm
+0se
+0bg
+0cg
+0fg
+0eg
+0fw
+0pl
+0wait
+0bg tone
+0cg tone
+0fg tone
+0eg tone
+0wait
+0autoface on
+0wait
+0drawdef 15
+0wipedef 40
+0wait
+0cgflag hb06
+0#90 = #90
+0next ST_b13

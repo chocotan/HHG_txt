@@ -1,0 +1,676 @@
+0frameoff
+0wait
+0fex inf2js scene_end 40
+0fex end
+0wait
+0wait 60
+0#100 = 1
+0#101 = 2
+0initialize_header
+0particle stop
+0place
+0wait
+0bgm
+0se
+0bg
+0cg
+0fg
+0eg
+0fw
+0pl
+0wait
+0bg tone
+0cg tone
+0fg tone
+0eg tone
+0wait
+0autoface on
+0wait
+0drawdef 15
+0wipedef 40
+0wait
+0frameoff
+0wait
+0bg 0 bg01a_191
+0pl 0 scale 110% 110%
+0rdraw 30
+0wait
+0pl 0 mscale 10*60 100% 100%
+0pl 5 disp 0
+0pl 31 $00000000
+0pl 31 disp 1
+0fex inf2js storytitle #100 0 #101
+0fex end
+0wait 1
+0pl 31 fade 30 0 255
+0wait 31
+0pl 0 stop
+0wait
+0bg
+0pl
+0wait
+0wait 60
+0bgm 0 bgm04
+0pl [2,3] disp 0
+0pl 7 disp 1
+0wait
+0pl 7 pri 7500
+0pl 7 pos 1170 360
+0pl [4,7] blend 0
+0eg 2 def 7
+0eg 2 ex02l,1,3,4,1
+0eg 4 ex02,1,3,4,1
+0bg 0 bg08a_19
+0rdraw 30
+0wait
+0frameon fade 15
+0wait
+ 第二天放学后。
+<CLS>
+ 今天开始真正的取材了、
+ \n但是天气也热起来了……。
+<CLS>
+0pl 7 m2fade 60 0 255
+0pl 7 m2move 600 1070 @
+!久司朗
+ 「那个、这是……我也要吗？」
+<CLS>
+0pcm B_ST_02_001
+0pcm E_ST_02_001
+!翠名＆夢子
+ 「当然了」
+<CLS>
+0pcm F_ST_02_001
+!詩子
+ 「……没有退路的……」
+<CLS>
+0pl 4 fade 40 0 255
+ 被三人完全包围住的我、
+ \n已经没有退路了。\@
+0wait
+0pl 7 stop
+0wait
+0eg 2
+0pl [2,3] disp 1
+0pl 7 disp 0
+0wait
+ 
+<CLS>
+0eg 4 ex02,1,2,4,1
+0rdraw
+0pcm B_ST_02_002
+!翠名
+ 「哈哈、我真的很开心。久司朗君、
+ \n真的加入新闻部了」
+<CLS>
+ 带着满面的笑容的翠名这样说着……
+ \n嘛 嗯。不会做坏事的吧。
+<CLS>
+0pcm E_ST_02_002
+!夢子
+ 「因为是第一天、鼓足劲上吧！」
+<CLS>
+0eg 4 ex02,1,2,1,1
+0rdraw
+0pcm F_ST_02_002
+!詩子
+ 「……气势和、干劲哦……」
+<CLS>
+ 两人这么有干劲也是当然的。
+<CLS>
+ 不参加的话什么也不会开始、
+ \n。
+<CLS>
+!久司朗
+ 「嗯、这件事的话」
+<CLS>
+ 我站在翠名和夢子中间、和她们的肩膀并排。 
+<CLS>
+ 就那样并排粘着、二人的热情和兴奋就
+ \n传达过来了。
+<CLS>
+0eg 4 ex02,1,1,1,1
+0rdraw
+0pcm B_ST_02_003
+!翠名
+ 「那么、为了庆祝全新的新聞部的诞生、
+ \n耶耶 喔~的说！」
+<CLS>
+ 是因为我入部了还是因为什么……
+ \n翠名很精神。
+<CLS>
+ 很不寻常的。
+<CLS>
+0pcm E_ST_02_003
+!夢子
+ 「耶耶哦ー、的说！」
+<CLS>
+!久司朗
+ 「好的。俺也拿出全力吧」
+<CLS>
+ 已经这样了、拿着箭啊铁炮啊什么的冲着我来吧。
+ \n耶耶哦这样的、根本不算什么！
+<CLS>
+0eg 4 ex02,1,1,4,1
+0rdraw
+0pcm F_ST_02_003
+!詩子
+ 「……气势十足、呢」
+<CLS>
+0eg 4 ex02,1,3,4,1
+0rdraw
+0pcm B_ST_02_004
+!翠名
+ 「哈哈、那么就一起喊了ー！　嘿嘿……」
+<CLS>
+0eg 4 ex02,1,4,2,2
+0rdraw
+0pcm B_ST_02_005
+0pcm E_ST_02_004
+0pcm F_ST_02_004
+!翠名＆夢子＆詩子＠みんな
+ 「喔ー！」
+<CLS>
+ 这样新的新闻部开始活动了。
+<CLS>
+ 我的野心的开始――话虽这么说、
+ \n这也太和平了吧。
+<CLS>
+0se
+0bgm 0 end 120
+0bgm 1 end 120
+0frameoff fade 60
+0wait
+0wait 60
+0bgm 0
+0bgm 1
+0se
+0wait
+0wait 40
+0fex inf2js eyecatch_ch3 #100 0
+0wait
+0initialize_header 
+0particle stop
+0place
+0wait
+0bgm
+0se
+0bg
+0cg
+0fg
+0eg
+0fw
+0pl
+0wait
+0bg tone
+0cg tone
+0fg tone
+0eg tone
+0wait
+0autoface on
+0wait
+0drawdef 15
+0wipedef 40
+0wait 
+0fex end
+0wait
+0initialize_header
+0particle stop
+0place
+0wait
+0bgm
+0se
+0bg
+0cg
+0fg
+0eg
+0fw
+0pl
+0wait
+0bg tone
+0cg tone
+0fg tone
+0eg tone
+0wait
+0autoface on
+0wait
+0drawdef 15
+0wipedef 40
+0wait
+0bgm 0 bgm03
+0bg 0 bg03a_11
+0rdraw 40
+0wait
+0#200 = 2
+0#201 = 310
+0#202 = 0
+0cg #200 attr 100 205 206 207 208 209
+0if ( #209 == 0xff00ff00 ) str 98
+0if ( #209 == 0xffff0000 ) str 98 ll
+0if ( #209 == 0xff0000ff ) str 98 l
+0if ( #209 == 0xff000000 ) str 98 s
+0cg #200 attr 101 205 206 207 208 209
+0if ( #209 == 0xff00ff00 ) #204 = 0
+0if ( #209 == 0xffff0000 ) #204 = 1
+0if ( #209 == 0xff0000ff ) #204 = 2
+0if ( #204 == 1 ) call em_leftset
+0if ( #204 == 2 ) call em_rightset
+0strn 99 #201
+0call chr_set
+0if ( #202 == 0 ) call em_normal
+0if ( #202 >= 1 ) call em_$str99
+0if ( #202 != 0 ) call em_normal
+0fg 2 blend 0
+0cg 2 ce02,1,1,1,7,0,0,0,0,1
+0rdraw 
+0pcm E_ST_02_005
+!夢子
+ 「取材っ、取材っ！」\@
+0wait
+0fg 2 fade 15 0 255
+0fg 2 amove1 15 @-15 @-15
+ 
+<CLS>
+0fg
+0rdraw
+!久司朗
+ 「心情正好呢、夢子さん」
+<CLS>
+0cg 2 ce02,1,1,4,1,0,0,0,0,1
+0rdraw
+0pcm E_ST_02_006
+!夢子
+ 「因为这是值得纪念的第一次取材哟！
+ \n我有这样的任务哦！」
+<CLS>
+0cg 2 ce02,1,1,1,7,0,0,0,0,2
+0rdraw 8
+0pcm E_ST_02_007
+!夢子
+ 「我已经充满干劲了！」\@
+0wait
+0pl 2 arc 18 180 360 0 14 
+ 
+<CLS>
+ 像在显摆自己的肌肉一样、夢子抬起手臂。
+ \n真的是心情很好呢。
+<CLS>
+ 嘛、也不是不知道这一点，虽然说是取材，
+ \n但也不是以全部学生为对象的。
+<CLS>
+!久司朗
+ 「但是、取材中不能这样活蹦乱跳哦。
+ \n因为、今日采访的是……」
+<CLS>
+0cg 2 ce01,1,0,1,1,0,0,0,0,1
+0rdraw
+0pcm E_ST_02_008
+!夢子
+ 「聖ジュライ学園的说！　站在白富美顶端的大家
+ \n！都很可爱」
+<CLS>
+!久司朗
+ 「嗯。明白的话就好」
+<CLS>
+ 我们选择了聖ジュライ学園作为最初的取材对象
+ \n。
+<CLS>
+ 比采访水無月学園要简单所以
+ \n所以就让诗子去拿到了取材许可。
+<CLS>
+0bgm 0 fade 100 100 0
+0frameoff fade 15
+0wait
+0cg 2
+0bg 1 bg04a_11 60
+0eg 5 gg_soft
+0rwipe wipe01a 60
+0bgm 1 bgm07
+0wait
+0cg 3 cf01,1,1,3,1,0,0,0,0,1
+0rdraw
+0pcm F_ST_02_006
+!詩子
+ 『……已经好了ー哦』
+<CLS>
+0pl [3,4] disp 0
+0pl 4 pos 410 360
+0pl 3 pos 870 360
+0cg 4 ce01,1,0,7,d,0,0,0,0,3
+0rdraw
+0pcm E_ST_02_009
+!夢子
+ 『诶、已经拿到取材许可了吗！？』\@
+0wait
+0pl [3,4] disp 1
+0rdraw
+ 
+<CLS>
+0cg 3 cf02,1,1,2,2,0,0,0,0,2
+0rdraw
+0pcm F_ST_02_007
+!詩子
+ 『……我就是能做到这个的女孩子……』
+<CLS>
+0bgm 1 end 120
+0frameoff fade 30
+0wait
+0bg [1-5]
+0cg [1-5]
+0fg [1-5]
+0eg [1-5]
+0pl [1-5]
+0cg 2 ce01,1,0,1,1,0,0,0,0,1
+0rwipe wipe01b 60
+0bgm 0 vol 0
+0wait 1
+0bgm 0 replay
+0bgm 0 fade 120 0 100
+0wait
+0frameon fade 15
+0wait
+ 省略省略，就是一些很令人怀念的话语，
+ \n先放到一边去。
+<CLS>
+0cg 2 ce01,1,0,8,b,0,0,0,0,6
+0rdraw
+0pcm E_ST_02_010
+!夢子
+ 「唔、没问题吗？　现在、
+ \n太紧张了……」
+<CLS>
+!久司朗
+ 「别太紧张说不出话来就行、
+ \n也别太紧张了」
+<CLS>
+0cg 2 ce01,1,0,2,c,0,0,0,0,6
+0rdraw
+0pcm E_ST_02_011
+!夢子
+ 「要求逐渐变高了啊
+ \n……」
+<CLS>
+0cg 2 ce02,1,1,8,4,0,0,0,0,2
+0#200 = 2
+0#201 = 120
+0#202 = 0
+0cg #200 attr 100 205 206 207 208 209
+0if ( #209 == 0xff00ff00 ) str 98
+0if ( #209 == 0xffff0000 ) str 98 ll
+0if ( #209 == 0xff0000ff ) str 98 l
+0if ( #209 == 0xff000000 ) str 98 s
+0cg #200 attr 101 205 206 207 208 209
+0if ( #209 == 0xff00ff00 ) #204 = 0
+0if ( #209 == 0xffff0000 ) #204 = 1
+0if ( #209 == 0xff0000ff ) #204 = 2
+0if ( #204 == 1 ) call em_leftset
+0if ( #204 == 2 ) call em_rightset
+0strn 99 #201
+0call chr_set
+0if ( #202 == 0 ) call em_normal
+0if ( #202 >= 1 ) call em_$str99
+0if ( #202 != 0 ) call em_normal
+0fg 2 blend 0
+0rdraw 8
+0pcm E_ST_02_012
+!夢子
+ 「……哈！　难度太高的话从下面钻过去就行了
+ \n！」\@
+0wait
+0pl 2 spline 6,@,@-20 10,@,@ 
+0wait
+0fg 2 fade 15 0 255
+0fg 2 amove1 15 @-15 @-15
+ 
+<CLS>
+0fg
+0rdraw
+!久司朗
+ 「いや、良くないだろう。っていうか、どんな話だよ」
+<CLS>
+0cg 2 ce02,1,2,4,7,0,0,0,0,2
+0rdraw
+0pcm E_ST_02_013
+!夢子
+ 「あ、あははっ」\@
+0wait
+0#200 = 2
+0#201 = 110
+0#202 = 1
+0cg #200 attr 100 205 206 207 208 209
+0if ( #209 == 0xff00ff00 ) str 98
+0if ( #209 == 0xffff0000 ) str 98 ll
+0if ( #209 == 0xff0000ff ) str 98 l
+0if ( #209 == 0xff000000 ) str 98 s
+0cg #200 attr 101 205 206 207 208 209
+0if ( #209 == 0xff00ff00 ) #204 = 0
+0if ( #209 == 0xffff0000 ) #204 = 1
+0if ( #209 == 0xff0000ff ) #204 = 2
+0if ( #204 == 1 ) call em_leftset
+0if ( #204 == 2 ) call em_rightset
+0strn 99 #201
+0call chr_set
+0if ( #202 == 0 ) call em_normal
+0if ( #202 >= 1 ) call em_$str99
+0if ( #202 != 0 ) call em_normal
+0wait
+0fg
+0rdraw
+ 
+<CLS>
+ 緊張のあまり、照れて頭をかく仕草すらも
+ \nカチコチに見えた。
+<CLS>
+ まあ、確かにテンションが上がりっぱなしな状態の
+ \n夢子には難しい注文だったかもしれないか。
+<CLS>
+ などと、考えていた時だった――。
+<CLS>
+0bgm 0 end 60
+0pcm Y_ST_02_001
+!男子学生Ａ
+ 「そっちの人！　危ない！」
+<CLS>
+!久司朗
+ 「ん？」\@
+0pl 4 pos 220 1677 
+0pl 4 scale 479% 479%
+0bg 4 blur 5 0
+0bg 4 bg01a_191 @ @ @ 4
+0pl 31 $FFffffff
+0pl 31 disp 1
+0rwipe wipe34b 15
+0wait
+0pl 31 disp 0
+0rwipe wipe34b 15
+ 
+<CLS>
+0bgm 1 vol 0
+0bgm 1 bgm12 
+0bgm 1 fade 120 0 100
+ その声に、俺が振り向いた時、目に
+ \n映ったのは迫り来る白球の姿だった。
+<CLS>
+ こっちに向かって来てはいるが、俺に当たるような
+ \n軌道ではない。むしろ、これだと――。
+<CLS>
+ 夢子に直撃してしまう。
+<CLS>
+0fw 0 ce01s,1,0,3,3,0,0,0,0,1
+0pcm E_ST_02_014
+!夢子
+ 「うーん。でも、聖ジュライ学園の人って
+ \nどんな話とかしたらいいんスかね？」
+<CLS>
+ 当の夢子は、気付いた様子はまるでない。
+<CLS>
+ ――まずい。一歩踏み出そうとした俺の視界の中で、
+ \n白球が夢子へと迫る様子が、スローモーションで見えた。\@
+0pl 31 disp 1
+0bg 4
+0cg 4
+0fg 4
+0eg 4
+0pl 4
+0rwipe wipe34d 15
+0wait
+0cg 2 ce01,1,0,3,3,0,0,0,0,1
+0pl 31 bmode 1
+0pl 31 blend 0
+0rwipe wipe34d 15
+ 
+<CLS>
+ 頭に直撃する。そう思った、次の瞬間――。\@
+0wait
+0pl 3 disp 0
+0eg 3 ee01l,1 @ @ @ 3
+0pl [4,5] blend 0
+0eg 4 ee01l,3 @ @ @ 4
+0pl 5 pos 750 240
+0eg 5 ee01l,0,2,1,5
+ 
+<CLS>
+0frameoff fade 15
+0wait
+0se 0 se228
+0pl 31 fade 15 0 255
+0wait
+0pl 3 disp 1
+0wait
+0pl 31 fade 20 255 0
+0pl [4,5] fade 30 0 255
+0pl 5 amove1 30 640 360
+ 淡い光をまとった夢子の体が、屈む。
+<CLS>
+0bg [4,5]
+0cg [4,5]
+0fg [4,5]
+0eg [4,5]
+0pl [4,5]
+0eg 3 ee01,3,2,1,5
+0rdraw 40
+ まるで、ボールが迫っていたことを
+ \n分かっていたかのようだ。
+<CLS>
+!久司朗
+ 「な……っ」
+<CLS>
+0eg
+0cg 2 ce01,1,0,6,2,0,0,0,0,3
+0rdraw 20
+0pcm E_ST_02_015
+!夢子
+ 「……あれ？　今、何か飛んでいきました？」\@
+0wait
+0wait 20
+0#200 = 2
+0#201 = 140
+0#202 = 0
+0cg #200 attr 100 205 206 207 208 209
+0if ( #209 == 0xff00ff00 ) str 98
+0if ( #209 == 0xffff0000 ) str 98 ll
+0if ( #209 == 0xff0000ff ) str 98 l
+0if ( #209 == 0xff000000 ) str 98 s
+0cg #200 attr 101 205 206 207 208 209
+0if ( #209 == 0xff00ff00 ) #204 = 0
+0if ( #209 == 0xffff0000 ) #204 = 1
+0if ( #209 == 0xff0000ff ) #204 = 2
+0if ( #204 == 1 ) call em_leftset
+0if ( #204 == 2 ) call em_rightset
+0strn 99 #201
+0call chr_set
+0if ( #202 == 0 ) call em_normal
+0if ( #202 >= 1 ) call em_$str99
+0if ( #202 != 0 ) call em_normal
+0se 0 se000
+0cg 2 ce01,1,0,3,1,0,0,0,0,1
+0rdraw
+ 
+<CLS>
+0fg
+0rdraw
+ あんな動きをしておいて、
+ \n気付いていなかった……だと？
+<CLS>
+ もしかして、無意識に動いていたのか？
+<CLS>
+0pcm X_ST_02_001
+!女子学生Ａ
+ 「きゃー！　避けてー！」
+<CLS>
+0pcm Y_ST_02_002
+!男子学生Ｂ
+ 「下の人、危ないっ！」
+<CLS>
+ 今度は校舎の方からテニスボールが飛んできて、
+ \n上からはカナヅチが落ちてきていた。
+<CLS>
+ これは性質の悪いジョークか、或いは悪夢か。
+ \nどちらも、吸い込まれるように夢子へと迫ってきて――。
+<CLS>
+0jumpstop
+0skipstop
+0bgm 1 pause 
+0frameoff 15
+0wait
+0fg
+0wait
+0bg mode mono
+0cg mode mono
+0eg mode mono
+0bg packpl 400+6*2*0 0
+0cg packpl 400+6*2*1 0
+0eg packpl 400+6*2*2 0
+0pl [1-5] disp 0
+0pl 30 1536 850
+0pl 30 vram 0 852
+0pl 30 base 768 425
+0pl 30 pos 640 360
+0pl 10
+0fg 5 sys_hh_main_bg 0 0 0
+0se 5 se912
+0wait
+0wait 10
+0bgm 0 bgm18a 
+0pl 10 disp 1
+0fg 1 sys_hh_bgnum 0 0 10
+0pl 10 base 768 425
+0pl 10 fade 60 0 255
+0pl 10 mcmove 60*3 @ @-720
+0fg 2 sys_hh_anm1 0 0 30
+0fg 3 sys_hh_anm2 1280-500 720-300 30
+0pl 30 disp 1
+0pl 30 fade 60 0 64
+0fex inf2 hh_cutin_b
+0fex end
+0wait
+0wait
+0fex sel hh_sel 10 1010 1011 -1 -1
+0fex end
+0wait
+0bg mode
+0cg mode
+0eg mode
+0bg packpl 400+6*2*0
+0cg packpl 400+6*2*1
+0eg packpl 400+6*2*2
+0fg
+0pl 10
+0pl 30
+0pl 2 blend 255
+0pl [1-5] disp 1
+0wbreak 40 16 16 400 200
+0wait 1
+0bgm 0 end 40
+0se 5 se913
+0wait
+0frameon fade 20
+0wait
+0#30 = 0
+0#31 = 0
+0#32 = 0
+0#33 = 0
+0if (#10==0) next ST_02a
+0if (#10==1) next ST_02b
+0if (#10==2) next 
+0if (#10==3) next 

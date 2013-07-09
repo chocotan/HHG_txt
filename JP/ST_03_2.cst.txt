@@ -1,0 +1,96 @@
+0pl 2 pos
+0cg 2 ca03,1,1,1,2,0,0,0,0,1
+0rdraw
+0pcm A_ST_03_020
+!光理
+ 「さて、『図書館』へ『資料』を探しに行く。
+ \nその予定だったんだけど……」
+<CLS>
+!久司朗
+ 「……今は止めておく」
+<CLS>
+0cg 2 ca03,1,1,2,1,0,0,0,0,1
+0rdraw
+0pcm A_ST_03_021
+!光理
+ 「それが懸命だね。今の君は酷く動揺している」
+<CLS>
+0cg 2 ca02,1,1,3,1,0,0,0,0,4
+0rdraw
+0pcm A_ST_03_022
+!光理
+ 「では、図書館でしばらく時間を
+ \n潰すことにしようか。健全に、ね」
+<CLS>
+!久司朗
+ 「……そうだな」
+<CLS>
+0cg
+0bg 1 bg90a_22
+0rdraw 40
+ 今はまだ、何か出来るのか分からない。
+<CLS>
+ 氷のような冷たさではない。嫌な感覚が、
+ \n霧のように付きまとってきて離れない。
+<CLS>
+0pl 5 blend 200
+0eg 5 ef02l,1,1,1,2
+0rdraw 50
+ 『春秋詩子』――。
+<CLS>
+ 何を考えているのか分からない。
+<CLS>
+ だからこそ、注意をしておかなければいけないな。
+<CLS>
+ 用心に用心を重ねるくらいでちょうどいい。
+<CLS>
+0eg 5
+0bg 1
+0rdraw 60
+ 俺は守護者ではないとバレてしまった瞬間。
+ \n――この学園にはいられなくなるのだから。
+<CLS>
+0frameoff fade 50
+0wait
+0bgm 1 end 120
+0bg 
+0cg 
+0fg 
+0eg 
+0pl 
+0rdraw 120
+0wait
+0wait 60
+0initialize_header
+0particle stop
+0place
+0wait
+0bgm
+0se
+0bg
+0cg
+0fg
+0eg
+0fw
+0pl
+0wait
+0bg tone
+0cg tone
+0fg tone
+0eg tone
+0wait
+0autoface on
+0wait
+0drawdef 15
+0wipedef 40
+0wait
+0dic_reg 5 はづきすいな
+0dic_reg 1 さんぼうからみるれきし
+0#90 = 0
+0pl 1 disp 0
+0if (#91) fex inf2js dicinfo 0
+0if (#91) fex end
+0dic_reset_apend
+0#91 = 0
+0pl 1 disp 1
+0next ST_04

@@ -1,0 +1,350 @@
+0frameoff
+0wait
+0fex inf2js scene_end 40
+0fex end
+0wait
+0wait 60
+0#100 = 1
+0#101 = 20 
+0#110 = 1 
+0initialize_header
+0particle stop
+0place
+0wait
+0bgm
+0se
+0bg
+0cg
+0fg
+0eg
+0fw
+0pl
+0wait
+0bg tone
+0cg tone
+0fg tone
+0eg tone
+0wait
+0autoface on
+0wait
+0drawdef 15
+0wipedef 40
+0wait
+0frameoff
+0wait
+0bg 0 bg01a_191
+0pl 0 scale 110% 110%
+0rdraw 30
+0wait
+0pl 0 mscale 10*60 100% 100%
+0pl 5 disp 0
+0pl 31 $00000000
+0pl 31 disp 1
+0fex inf2js storytitle #100 1 #101
+0fex end
+0wait 1
+0pl 31 fade 30 0 255
+0wait 31
+0pl 0 stop
+0wait
+0bg
+0pl
+0wait
+0wait 60
+0initialize_header
+0particle stop
+0place
+0wait
+0bgm
+0se
+0bg
+0cg
+0fg
+0eg
+0fw
+0pl
+0wait
+0bg tone
+0cg tone
+0fg tone
+0eg tone
+0wait
+0autoface on
+0wait
+0drawdef 15
+0wipedef 40
+0wait
+0bgm 0 bgm02
+0bg 0 bg31a_19
+0rdraw 40
+0wait
+0frameon fade 15
+0wait
+ 『ノア』の消失、そして『世界長』が空位のまま
+ \n選挙が無期延期されることの決定。
+<CLS>
+ この二つのニュースは、学園全体
+ \nのみならず世界までもを揺るがした。
+<CLS>
+ 子どもの期待と、大人の思惑を裏切り、
+ \n全ては白紙へと戻った。
+<CLS>
+ 何もかも、今までと変わらない、綺麗な更地に。
+<CLS>
+ 相変わらず揺れ続ける世界を尻目に、
+ \n学園は静けさを取り戻しつつあった。
+<CLS>
+ その裏では、西九条先生や翠名の父親を筆頭とする
+ \n大人たちの努力があったのだろう。
+<CLS>
+ その庇護の下、まるでそれが本来の形で
+ \nあったかのように学生たちは日常を過ごしていた。
+<CLS>
+0bg 0 bg30a_19
+0rwipe wipe50b
+ 俺はというと……新しく設立された
+ \n学生会に加わることになった。
+<CLS>
+ 翠名、サクラ、姫乃の三人を会長とした、
+ \n他に類を見ない形の学生会。
+<CLS>
+ 同様に副会長も数人が選出されることになって
+ \n……俺はその中の一人だ。
+<CLS>
+ 新聞部の方も、部員が特別増えるということもなく、
+ \n相変わらずの調子だ。
+<CLS>
+ 少しくらいは部員が増えてもいいとは思うのだが……
+ \nこればかりは、どうしようもないことだ。
+<CLS>
+0bg 0 bg50a_19
+0rwipe wipe50b
+ 将来に不安がないと言えば、嘘になる。
+<CLS>
+ 揺れ続ける世界情勢は、どこに落ち着くのか、
+ \nまるで予想もつかない。
+<CLS>
+ まったく先の見えない明日ばかりだが、
+ \nまあ、それでもなんとかやっていけるだろう。
+<CLS>
+ 人とは、そうやって生きていくのだから。
+<CLS>
+ そうして、また今日が始まり、日常が幕を開ける。
+<CLS>
+0se
+0bgm 0 end 120
+0bgm 1 end 120
+0frameoff fade 60
+0wait
+0wait 60
+0bgm 0
+0bgm 1
+0se
+0wait
+0fex inf2js eyecatch_ch #100 1 2 -1 -1
+0wait
+0initialize_header 
+0particle stop
+0place
+0wait
+0bgm
+0se
+0bg
+0cg
+0fg
+0eg
+0fw
+0pl
+0wait
+0bg tone
+0cg tone
+0fg tone
+0eg tone
+0wait
+0autoface on
+0wait
+0drawdef 15
+0wipedef 40
+0wait 
+0fex end
+0wait
+0#101 = 102 
+0bgm 0 bgm26
+0eg 1 eb06,1,1,1
+0rdraw 30
+0pcm B_ST_b13_001
+!翠名
+ 「おはようございます」
+<CLS>
+ 登校した俺を待ち構えていたのは、
+ \n翠名の明るい挨拶と笑顔だった。
+<CLS>
+!久司朗
+ 「お、おはよう」
+<CLS>
+ 正直言って、ここで待ち伏せを受けるとは意外だった。
+<CLS>
+ てっきり、会うとすれば教室だとばかり思っていたからだ。
+<CLS>
+0pcm B_ST_b13_002
+!翠名
+ 「びっくりしました？」
+<CLS>
+!久司朗
+ 「うん。まさか、ここで待ってるだなんて
+ \n思ってもみなかった」
+<CLS>
+0eg 1 eb06,1,2,2
+0rdraw
+0pcm B_ST_b13_003
+!翠名
+ 「ふふふっ、作戦成功です。早く来て
+ \n待っていた甲斐がありました」
+<CLS>
+ イタズラが成功した子どものように、
+ \n翠名が笑みを浮かべる。
+<CLS>
+!久司朗
+ 「待ってたって。俺が来る時間を予測すれば、
+ \n別にそんなことする必要ないじゃないか」
+<CLS>
+0eg 1 eb06,1,3,1
+0rdraw 
+0pcm B_ST_b13_004
+!翠名
+ 「それはそうなんですけどね。そこは
+ \n乙女心と言いますか、ロマンと言いますか」
+<CLS>
+0eg 1 eb06,1,3,2
+0rdraw
+0pcm B_ST_b13_005
+!翠名
+ 「いくら未来が予測出来ても、会いたい気持ちを
+ \n抑えることは出来ませんから」
+<CLS>
+ にこり、と俺へと向けられた笑みが深みを増した。
+<CLS>
+0pcm B_ST_b13_006
+!翠名
+ 「一分一秒でも早く会いたくて、ついつい
+ \n待ちきれずに家を出てしまいました」
+<CLS>
+ 翠名の気持ちが伝染したかのように、
+ \n俺の胸にも嬉しさが広がっていく。
+<CLS>
+ 多分、俺も同じような顔で笑っているに違いない。
+<CLS>
+!久司朗
+ 「それだったら、家に来ればいいじゃないか」
+<CLS>
+0eg 1 eb06,1,1,1
+0rdraw
+0pcm B_ST_b13_007
+!翠名
+ 「あ、その手がありましたね」
+<CLS>
+ などと言いながら、手を打つ翠名の様子がおかしくて、
+ \nついつい笑い声を上げてしまう。
+<CLS>
+!久司朗
+ 「今日の予定は？」
+<CLS>
+0eg 1 eb06,1,3,2
+0rdraw
+0pcm B_ST_b13_008
+!翠名
+ 「いつも通りです」
+<CLS>
+ 俺の夢も野望も、まだ全てが潰えたわけではない。
+<CLS>
+ それが一足飛びにではなくて、小さくゆっくりと
+ \n進むことになっただけだ。
+<CLS>
+ 学園を卒業したら、翠名と一緒にまずは
+ \nこの国から変えていこう。
+<CLS>
+ 誰よりも平穏を望む翠名の理想は、
+ \n必ず実現されなければいけない未来だ。
+<CLS>
+ ただ、それが誰か一人の手によってではなく、
+ \n今、世界に生きる人たち。
+<CLS>
+ そして、これから生まれてくる人々の手で、
+ \n叶えられなければいけない。
+<CLS>
+ そうなるための下地だけでも、作れたらいい。
+<CLS>
+ 夢と野望を、これから百年先の希望へと変えて。
+<CLS>
+ そのためには、まず――。
+<CLS>
+0eg 1 eb06l,1,3,2
+0rdraw 30
+!久司朗
+ 「翠名さん」
+<CLS>
+0eg 1 eb06l,1,1,1
+0rdraw
+0pcm B_ST_b13_009
+!翠名
+ 「なんですか？」
+<CLS>
+!久司朗
+ 「幸せかな？」
+<CLS>
+0eg 1 eb06l,1,2,2
+0rdraw
+0pcm B_ST_b13_010
+!翠名
+ 「ふふ、はい、とっても！」
+<CLS>
+0eg 1 eb06,1,2,2
+0rdraw 60
+ まずは、そう、目の前の恋人を幸せにしたい。
+<CLS>
+ そこから始めていこう。
+<CLS>
+ これが俺の新しい戦いへと変わるまで。
+<CLS>
+0jumpstop
+0keyskip off
+0wait 1
+0frameoff fade 60
+0wait
+0bgm 0 end 180
+0bgm 1 end 180
+0wait
+0wait 180
+0baseimg 1
+0pl disp 0
+0bg
+0cg
+0eg
+0fg
+0wait
+0fes staffroll1 1
+0wait 60
+0#559 = 1 
+0#555 |= 1<<1 
+0dic_reg 1 いかやき
+0dic_reg 1 たこやき
+0dic_reg 1 わたがし
+0dic_reg 1 やきそば
+0dic_reg 1 くれーぷ
+0dic_reg 1 びっくりたこやき
+0dic_reg 1 あかしやき
+0dic_reg 1 こんじょうやき
+0dic_reg 1 せいじょやき
+0dic_reg 1 きゃんぷふぁいやー
+0dic_reg 1 ふぉーくだんす
+0dic_reg 1 しょーつ
+0if (#90==1) dic_reg 1 なかだし
+0if (#90==2) dic_reg 1 そとだし
+0#90 = 0
+0pl 1 disp 0
+0if (#91) fex inf2js dicinfo 0
+0if (#91) fex end
+0dic_reset_apend
+0#91 = 0
+0pl 1 disp 1
+0title

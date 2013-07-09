@@ -1,0 +1,841 @@
+0frameoff
+0wait
+0fex inf2js scene_end 40
+0fex end
+0wait
+0wait 60
+0#100 = 1
+0#101 = 1
+0initialize_header
+0particle stop
+0place
+0wait
+0bgm
+0se
+0bg
+0cg
+0fg
+0eg
+0fw
+0pl
+0wait
+0bg tone
+0cg tone
+0fg tone
+0eg tone
+0wait
+0autoface on
+0wait
+0drawdef 15
+0wipedef 40
+0wait
+0frameoff
+0wait
+0bg 0 bg90a_11
+0pl 0 scale 110% 110%
+0rdraw 30
+0wait
+0pl 0 mscale 10*60 100% 100%
+0pl 5 disp 0
+0pl 31 $00000000
+0pl 31 disp 1
+0fex inf2js storytitle #100 0 #101
+0fex end
+0wait 1
+0pl 31 fade 30 0 255
+0wait 31
+0pl 0 stop
+0wait
+0bg
+0pl
+0wait
+0wait 60
+0initialize_header
+0particle stop
+0place
+0wait
+0bgm
+0se
+0bg
+0cg
+0fg
+0eg
+0fw
+0pl
+0wait
+0bg tone
+0cg tone
+0fg tone
+0eg tone
+0wait
+0autoface on
+0wait
+0drawdef 15
+0wipedef 40
+0wait
+0bgm 0 bgm02
+0bg 0 bg91a_19
+0rdraw 30
+0wait
+0frameon fade 15
+0wait
+ 开学和第二天的开票结果发表日过后大约一周，
+<CLS>
+ 『私立叶月学园』完全是作为一个普通的『守护者』育成学校
+ 开始上课的。
+<CLS>
+ 还没有从选举委员会
+ \n获得任何关于『选举』的通告
+<CLS>
+ 所以我们『学生有权者』和『圣女候补』们
+ \n以及她们的辅佐者。
+<CLS>
+ 姑且，开始了还算是普通的学校生活。
+<CLS>
+0eg 1 ea02,2,1,1
+0bg
+0rwipe wipe30h
+0pcm A_ST_01_001
+!光理
+ 「但是，翠名的话」
+<CLS>
+!久司朗
+ 「那是最容易的吧？」
+<CLS>
+0pcm A_ST_01_002
+!光理
+ 「嘛，因为已经是熟人了」
+<CLS>
+!久司朗
+ 「可能性最大」
+<CLS>
+ 要说其他的两位圣女候补和翠名有什么不同的吧，果然是那里了。
+<CLS>
+ 一从0开始构筑关系，
+ \n无论如何都需要花更多的时间。
+<CLS>
+ 在这点上，和翠名已经构筑了某种程度的关系。
+<CLS>
+!久司朗
+ 「接近她的方法也不少」
+<CLS>
+0pcm A_ST_01_003
+!光理
+ 「也很容易被攻略的样子。只是, 她希望维持现状，
+ \n这样可以吗？」
+<CLS>
+0pcm A_ST_01_004
+!光理
+ 「假如真的维持现状的话、
+ \n哥哥会觉得很无聊的吧」
+<CLS>
+!久司朗
+ 「确实是呢」
+<CLS>
+ 维持现状，也就是让这个世界就这样
+ \n一直下去的意思。
+<CLS>
+ 我所期望的是世界的破坏，也就是变革。
+<CLS>
+ 现状维持这样的话语，只能作为选举用的武器罢了，
+ \n不能让它实现。
+<CLS>
+!久司朗
+ 「在这方面，只能在选举的过程中
+ \n诱导翠名的想法了」
+<CLS>
+!久司朗
+ 「为此，就让翠名彻底的堕落吧，
+ \n身体和内心，都迷恋于我」
+<CLS>
+0eg 1 ea02,2,2,3
+0rdraw
+0pcm A_ST_01_005
+!光理
+ 「嗯，真是和这清爽的上学风景完全不相称
+ \n的鬼畜台词呢」
+<CLS>
+0eg 1 ea02,2,1,1
+0rdraw
+0pcm A_ST_01_006
+!光理
+ 「那么，首先打算做什么呢？」
+<CLS>
+!久司朗
+ 「嗯，总之先去来个早上
+ \n清爽的问候吧。」
+<CLS>
+ 终于看到了校门，我点了个头。
+<CLS>
+0eg 1 ea02,2,2,2
+0rdraw
+0pcm A_ST_01_007
+!光理
+ 「哼~，原来如此，早上的问候啊」
+<CLS>
+ 光理目光的那边，是被女生围住
+ \n走向学校的翠名们的身影。
+<CLS>
+0pcm A_ST_01_008
+!光理
+ 「那确实很重要呢，
+ \n是宣告一天开始所必要的事情」
+<CLS>
+!久司朗
+ 「是吧？那么，我们也开始吧！」
+<CLS>
+!久司朗
+ 「今天，一切从这里开始」 
+<CLS>
+0se
+0bgm 0 end 120
+0bgm 1 end 120
+0frameoff fade 60
+0wait
+0wait 60
+0bgm 0
+0bgm 1
+0se
+0wait
+0wait 40
+0fex inf2js eyecatch_ch3 #100 
+0wait
+0initialize_header 
+0particle stop
+0place
+0wait
+0bgm
+0se
+0bg
+0cg
+0fg
+0eg
+0fw
+0pl
+0wait
+0bg tone
+0cg tone
+0fg tone
+0eg tone
+0wait
+0autoface on
+0wait
+0drawdef 15
+0wipedef 40
+0wait 
+0fex end
+0wait
+0initialize_header
+0particle stop
+0place
+0wait
+0bgm
+0se
+0bg
+0cg
+0fg
+0eg
+0fw
+0pl
+0wait
+0bg tone
+0cg tone
+0fg tone
+0eg tone
+0wait
+0autoface on
+0wait
+0drawdef 15
+0wipedef 40
+0wait
+0bgm 0 bgm03
+0bg 0 bg01a_111
+0rdraw 40
+0wait
+0frameon fade 15
+0wait
+!久司朗
+ 「呀，翠名，早上好」
+<CLS>
+ 一边招手，一边像注意到对面一样 
+ \n往翠名们那边走
+<CLS>
+!久司朗
+ 「梦子 和 诗子 也早上好~」
+<CLS>
+0bgm 0 end 80
+0bgm 1 bgm07
+0cg 4 cb02,1,1,4,2,0,0,0,0,1
+0rdraw
+0pcm B_ST_01_001
+!翠名
+ 「啊，久司朗君，早上好」\@
+0wait
+0wait 80
+0cg 4 cb01,1,1,1,5,0,0,0,0,1
+0rdraw 8
+0wait
+0pl 4 arc 22 180 360 0 12 
+ 
+<CLS>
+0pl 2 pos 320 360
+0cg 2 ce01,1,0,4,1,0,0,0,0,1
+0rdraw
+0pcm E_ST_01_001
+!夢子
+ 「早上好~」
+<CLS>
+0pl 3 pos 980 360
+0cg 3 cf01,1,1,1,1,0,0,0,0,1
+0cg 2 ce01,1,0,1,1,0,0,0,0,1
+0rdraw
+0pcm F_ST_01_001
+!詩子
+ 「......早上...好」 
+<CLS>
+ 翠名露出了笑容，梦子活力满满的招手，
+ \n而诗子情绪低落。
+<CLS>
+ 三个人各是不同的状态回应了我的问候
+<CLS>
+0cg 4 cb01,1,1,1,1,0,0,0,0,1
+0rdraw
+!久司朗
+ 「还是一样，活力满满真好啊」
+<CLS>
+0cg 2 ce02,1,1,4,7,0,0,0,0,1
+0rdraw 8
+0pcm E_ST_01_002
+!夢子
+ 「啊哈哈，这样可以有！」\@
+0wait
+0pl 2 shake 16 4 0 4
+ 
+<CLS>
+0fw 0 ca02s,1,1,3,5,0,0,0,0,3
+0pcm A_ST_01_009
+!光理
+ 「确实是早上好呢，真是有趣的问候呢」
+<CLS>
+0cg 3 cf01,1,1,3,3,0,0,0,0,1
+0rdraw
+0pcm F_ST_01_002
+!詩子
+ 「...流行的最前线哦」 
+<CLS>
+0cg 4 cb01,1,1,1,5,0,0,0,0,2
+0rdraw
+0pcm B_ST_01_002
+!翠名
+ 「呵呵，大家关系真好」
+<CLS>
+ 翠名微笑着看着轻快交谈着的我们。
+ \n
+<CLS>
+ 早上的场景和往常一样
+<CLS>
+0cg 2 ce02,1,1,1,1,0,0,0,0,1
+0cg 3 cf01,1,1,1,1,0,0,0,0,1
+0cg 4 cb01,1,1,1,2,0,0,0,0,2
+0rdraw
+!久司朗
+ 「像这样，早上会遇到真是偶然呢」
+<CLS>
+0cg 4 cb03,1,1,3,1,0,0,0,0,1
+0rdraw
+0pcm B_ST_01_003
+!翠名
+ 「嗯，美丽的偶然呢」
+<CLS>
+!久司朗
+ 「嗯～今天一定会是美丽的一天，
+ \n我有这样的预感」
+<CLS>
+0cg 4 cb03,1,1,3,7,0,0,0,0,1
+0rdraw 8
+0pcm B_ST_01_004
+!翠名
+ 「嗯，我也是，嘿嘿」\@
+0wait
+0pl 4 arc 22 180 360 0 12 
+ 
+<CLS>
+ 翠名看上去心情真的是很好。
+<CLS>
+ 今天一定会是美丽的一天。她就这样相信了我的玩笑一样
+ \n
+<CLS>
+0cg
+0pl 3 pos 450 @
+0cg 3 ce02,1,1,1,1,0,0,0,0,1
+0pl 4 pos 860 @
+0cg 4 ca03,1,1,3,8,0,0,0,0,1
+0rwipe wipe30e
+0pcm A_ST_01_010
+!光理
+ 「哎呀哎呀，哥哥，我知道早上你和翠名遇上了很高兴
+ \n但也要有个度呀」
+<CLS>
+0cg 3 ce01,1,0,6,1,0,0,0,0,2
+0rdraw
+0pcm E_ST_01_003
+!夢子
+ 「很自然的被勾搭了呢～」
+<CLS>
+!久司朗
+ 「哎？是吗？」
+<CLS>
+0fw 0 cb01s,1,1,5,6,0,0,0,0,2
+0pcm B_ST_01_005
+!翠名
+ 「唔……勾搭什么的……不是……」
+<CLS>
+0cg
+0pl 4 pos 640 @
+0cg 4 cb01,1,2,4,1,0,0,0,0,2
+0rdraw 20
+ 翠名很婉转，不否定，还带着一丝期待的眼神看着我
+ \n
+<CLS>
+ 这里如果我说不是的话，好不容易构筑的良好关系
+ \n很可能会崩坏吧。
+<CLS>
+!久司朗
+ 「嗯……早上就能看到翠名的笑容确实
+ \n让我很开心」
+<CLS>
+0cg 4 cb02,1,2,2,9,0,0,0,0,4
+0rdraw 8
+0pcm B_ST_01_006
+!翠名
+ 「哈呜……！」\@
+0wait 
+0pl 4 spline 6,@,@-8 8,@,@ 
+ 
+<CLS>
+ 翠名的脸变得通红，赶紧低下了头。
+<CLS>
+ 这样，作出如此有趣的反应，
+ \n也就没必要耍小聪明，真是省事。
+<CLS>
+ 这样的关系，必须这样维持下去。
+<CLS>
+0cg 2 ce01,1,0,4,c,0,0,0,0,3
+0rdraw
+0pcm E_ST_01_004
+!夢子
+ 「啊，前辈真是的，早晨遇到了翠名前辈就
+ \n精神满满呀」\@
+0wait
+0wait 100
+0cg 2 ce01,1,0,4,7,0,0,0,0,3
+0rdraw
+ 
+<CLS>
+!久司朗
+ 「我可不记得我有像你说的这样」
+<CLS>
+0cg 2 ce01,1,0,1,1,0,0,0,0,3
+0pl 3 pos 980 @
+0cg 3 cf02,1,1,5,8,0,0,0,0,1
+0rdraw
+0pcm F_ST_01_003
+!詩子
+ 「……已经忍耐不了了……这样说的……」\@
+0wait
+0wait 120
+0cg 3 cf02,1,1,1,1,0,0,0,0,1
+0rdraw
+ 
+<CLS>
+!久司朗
+ 「但是我完全不记得我这样说过」
+<CLS>
+0cg 4 cb02,1,2,2,a,0,0,0,0,4
+0rdraw 8
+0pcm B_ST_01_007
+!翠名
+ 「啊呜呜……」\@
+0wait
+0pl 4 amove2 22 @ @+16 
+ 
+<CLS>
+0cg 2 ce01,1,0,1,7,0,0,0,0,3
+0cg 3 cf02,1,1,2,4,0,0,0,0,1
+0rdraw
+ 翠名的脸更加红了，而那两人则笑嘻嘻地看着。
+<CLS>
+ 好像是以翠名为中心，也总是捉弄着翠名的两人。
+ \n
+<CLS>
+ 和往常一样，这三人的关系真好。
+<CLS>
+0cg
+0pl 4 disp 0
+0cg 4 ca01,1,1,1,3,0,0,0,0,1
+0rdraw
+0pcm A_ST_01_011
+!光理
+ 「嘛，不管怎么说，哥哥和翠名都对对方有种特别的感觉
+ \n」\@
+0wait
+0pl 4 disp 1
+0rdraw
+0wait
+0wait 120
+0cg 4 ca01,1,1,2,2,0,0,0,0,2
+0rdraw
+ 
+<CLS>
+0cg 4 ca01,1,1,2,a,0,0,0,0,1
+0rdraw
+0pcm A_ST_01_012
+!光理
+ 「作为一整天都对哥哥的肉体有想法的可爱的妹妹，
+ \n有一点嫉妒呢」
+<CLS>
+ 多少有点故意这样说的意味，
+ \n这也是光理在帮我吧。
+<CLS>
+!久司朗
+ 「虽然说的话语有那样的意思，但没有什么特别的意图，
+ \n是吗～翠名同学？」
+<CLS>
+0cg
+0rwipe wipe30h
+ 顺着这个局势观察着翠名的反应。
+<CLS>
+0pl 4
+0cg 4 cb02,1,1,2,8,0,0,0,0,2
+0rdraw
+0pcm B_ST_01_008
+!翠名
+ 「呜……」
+<CLS>
+0fw 0 ce01s,1,0,6,d,0,0,0,0,5
+0pcm E_ST_01_005
+!夢子
+ 「喔？」
+<CLS>
+0fw 0 cf01s,1,1,2,1,0,0,0,0,1
+0pcm F_ST_01_004
+!詩子
+ 「……啊啦啊啦」
+<CLS>
+!久司朗
+ 「翠名同学？」
+<CLS>
+0#200 = 4
+0#201 = 160
+0#202 = 0
+0cg #200 attr 100 205 206 207 208 209
+0if ( #209 == 0xff00ff00 ) str 98
+0if ( #209 == 0xffff0000 ) str 98 ll
+0if ( #209 == 0xff0000ff ) str 98 l
+0if ( #209 == 0xff000000 ) str 98 s
+0cg #200 attr 101 205 206 207 208 209
+0if ( #209 == 0xff00ff00 ) #204 = 0
+0if ( #209 == 0xffff0000 ) #204 = 1
+0if ( #209 == 0xff0000ff ) #204 = 2
+0if ( #204 == 1 ) call em_leftset
+0if ( #204 == 2 ) call em_rightset
+0strn 99 #201
+0call chr_set
+0if ( #202 == 0 ) call em_normal
+0if ( #202 >= 1 ) call em_$str99
+0if ( #202 != 0 ) call em_normal
+0cg 4 cb02,1,1,2,b,0,0,0,0,2
+0rdraw 8
+0pcm B_ST_01_009
+!翠名
+ 「诶？　啊，怎么了？」\@
+0wait
+0fg
+0rdraw
+0wait 60
+0cg 4 cb02,1,1,7,1,0,0,0,0,1
+0rdraw
+ 
+<CLS>
+!久司朗
+ 「没什么，你在那里沉思呢」
+<CLS>
+0pl 3 pos 980 360
+0cg 3 ca02,1,1,7,8,0,0,0,0,4
+0rdraw
+0pcm A_ST_01_013
+!光理
+ 「『我明明有特别的意思但是久司朗君却说没有
+ \n唔唔唔』像这样的」\@
+0wait
+0wait 260
+0cg 3 ca02,1,1,7,b,0,0,0,0,4
+0rdraw
+0wait
+0wait 140
+0cg 3 ca03,1,1,1,1,0,0,0,0,1
+0rdraw
+ 
+<CLS>
+0cg 3 ca03,1,1,3,1,0,0,0,0,1
+0cg 4 cb02,1,2,8,b,0,0,0,0,4
+0rdraw 8
+0pcm B_ST_01_010
+!翠名
+ 「诶诶诶！？　啊，不是，这样的话
+ \n简直是完全没有那样的意思！？」\@
+0wait
+0se 0 se002a
+0pl 4 quake 4,0,-10 4,0,10 4,0,-5 4,0,5 4,0,0
+0wait
+0wait 60 
+0cg 4 cb01,1,0,0,0,0,0,2,0,2
+0rdraw 8
+0wait
+0pl 4 arc 160 90 90+360*9 20 0
+ 
+<CLS>
+ 翠名呼呼的摇着手，红着脸否定了
+ \n
+<CLS>
+0cg 3 ca03,1,1,1,5,0,0,0,0,1
+0rdraw
+0pcm A_ST_01_014
+!光理
+ 「其实是稍微有点特别，但说出来的话会有点害羞
+ \n这样的程度吧」\@
+0wait
+0wait 330
+0cg 3 ca02,1,1,1,1,0,0,0,0,4
+0rdraw
+ 
+<CLS>
+0cg 4 cb03,1,2,6,9,0,0,0,0,1
+0rdraw 8
+0pcm B_ST_01_011
+!翠名
+ 「别、别冷静的给我解说呀！」\@
+0wait
+0pl 4 arc 18 180 360 0 14 
+ 
+<CLS>
+0pl 2 pos 320 360
+0cg 3 ca01,1,1,2,2,0,0,0,0,1
+0cg 2 ce01,1,0,1,6,0,0,0,0,1
+0rdraw
+0pcm E_ST_01_006
+!夢子
+ 「确实呢。被前辈问道时深思
+ \n『果然翠名前辈真是的』这样想的」\@
+0wait
+0wait 60
+0cg 2 ce01,1,0,1,1,0,0,0,0,3
+0rdraw
+ 
+<CLS>
+0cg 4 cb01,1,0,0,0,0,0,0,2,2
+0#200 = 4
+0#201 = 120
+0#202 = 0
+0cg #200 attr 100 205 206 207 208 209
+0if ( #209 == 0xff00ff00 ) str 98
+0if ( #209 == 0xffff0000 ) str 98 ll
+0if ( #209 == 0xff0000ff ) str 98 l
+0if ( #209 == 0xff000000 ) str 98 s
+0strn 99 #201
+0call chr_set
+0if ( #202 == 0 ) call em_normal
+0if ( #202 == 1 ) call em_$str99
+0if ( #202 != 0 ) call em_normal
+0rdraw 8
+0pcm B_ST_01_012
+!翠名
+ 「梦、梦子酱也不要起哄了！？」\@
+0wait
+0se 0 se002a
+0pl 4 quake 4,0,-20 4,0,20 4,0,-10 4,0,10 4,0,-5 4,0,5 4,0,0
+ 
+<CLS>
+0fg
+0cg 2 ce01,1,0,7,d,0,0,0,0,2
+0rdraw
+0pcm E_ST_01_007
+!夢子
+ 「对不起啦！ 无意中就把自己所想的
+ \n给说出来了！」\@
+0wait
+0wait 60
+0cg 2 ce01,1,0,8,2,0,0,0,0,2
+0rdraw
+ 
+<CLS>
+0pl 3 pos 990 @
+0cg 3 cf01,1,1,2,2,0,0,0,0,1
+0rdraw
+0pcm F_ST_01_005
+!詩子
+ 「……那么动摇的话会陷得更深哦……」
+<CLS>
+0cg 4 cb02,1,2,2,a,0,0,0,0,4
+0rdraw 8
+0pcm B_ST_01_013
+!翠名
+ 「……啊唔唔」\@
+0wait
+0pl 4 amove2 30 @ @+36 
+ 
+<CLS>
+0cg 3 cf01,1,1,3,3,0,0,0,0,1
+0rdraw
+ 翠名到底还是低下了头。
+<CLS>
+ 嗯，什么嘛，就这样看着也很有意思。
+<CLS>
+!久司朗
+ 「对不起，是我太草率了，以后我回尽可能
+ \n的自重的」
+<CLS>
+0cg 2 ce01,1,0,1,1,0,0,0,0,3
+0cg 3 cf01,1,1,1,1,0,0,0,0,1
+0cg 4 cb01,1,2,5,6,0,0,0,0,2
+0rdraw
+0pcm B_ST_01_014
+!翠名
+ 「啊不，我才要……这样努力」\@
+0wait
+0pl 4 amove1 30 @ 360
+ 
+<CLS>
+0cg 3 cf02,1,1,3,4,0,0,0,0,0,1
+0rdraw
+0pcm F_ST_01_006
+!詩子
+ 「……就这样迈出夫妇的第一步的两人……」
+<CLS>
+0cg 3 cf02,1,1,2,4,0,0,0,0,0,1
+0rdraw
+ 不知何时拿着书、宛如在宣告一样
+ \n诗子小声的嘟哝着。
+<CLS>
+0cg 4 cb03,1,2,6,9,0,0,0,0,1
+0rdraw
+0pcm B_ST_01_015
+!翠名
+ 「呜，诗子……！」
+<CLS>
+ 翠名含着眼泪有点生气了。
+<CLS>
+0cg 3 cf01,1,1,3,1,0,0,0,0,0,4
+0rdraw
+0pcm F_ST_01_007
+!詩子
+ 「……哦不好，刚刚的只是朗读哟……」\@
+0wait
+0wait 50
+0cg 3 cf01,1,1,1,3,0,0,0,0,0,4
+0rdraw
+ 
+<CLS>
+0cg 3 cf01,1,1,3,3,0,0,0,0,0,4
+0cg 4 cb01,1,2,4,8,0,0,0,0,1
+0rdraw
+0pcm B_ST_01_016
+!翠名
+ 「真是的……」
+<CLS>
+0cg 2 ce01,1,0,1,1,0,0,0,0,3
+0cg 3 cf01,1,1,1,1,0,0,0,0,0,4
+0cg 4 cb01,1,1,4,7,0,0,0,0,1
+0rdraw
+!久司朗
+ 「嘛嘛。不管怎么说、对大家来说都是一个开心的早上。
+ \n这样不就行了吗？」
+<CLS>
+0cg 2 ce02,1,1,1,7,0,0,0,0,1
+0rdraw 8
+0pcm E_ST_01_008
+!夢子
+ 「嗯嗯，前辈这样说的话那就这样了」\@
+0wait
+0pl 2 arc 18 180 360 0 10 
+ 
+<CLS>
+0cg 3 cf01,1,1,3,1,0,0,0,0,0,4
+0rdraw
+0pcm F_ST_01_008
+!詩子
+ 「……就让你趁机结束话题吧……」
+<CLS>
+ 这两人，完全在玩着。
+<CLS>
+ 这里我或多或少想要报复这两人了。
+<CLS>
+ 我悄悄地把手放在眼前，从手指的
+ \n缝隙中看着两人。
+<CLS>
+0jumpstop
+0skipstop
+0bgm 1 pause 
+0frameoff 15
+0wait
+0fg
+0wait
+0bg mode mono
+0cg mode mono
+0eg mode mono
+0bg packpl 400+6*2*0 0
+0cg packpl 400+6*2*1 0
+0eg packpl 400+6*2*2 0
+0pl [1-5] disp 0
+0pl 30 1536 850
+0pl 30 vram 0 852
+0pl 30 base 768 425
+0pl 30 pos 640 360
+0pl 10
+0fg 5 sys_hh_main_bg 0 0 0
+0se 5 se912
+0wait
+0wait 10
+0bgm 0 bgm18a 
+0pl 10 disp 1
+0fg 1 sys_hh_bgnum 0 0 10
+0pl 10 base 768 425
+0pl 10 fade 60 0 255
+0pl 10 mcmove 60*3 @ @-720
+0fg 2 sys_hh_anm1 0 0 30
+0fg 3 sys_hh_anm2 1280-500 720-300 30
+0pl 30 disp 1
+0pl 30 fade 60 0 64
+0fex inf2 hh_cutin_b
+0fex end
+0wait
+0wait
+0fex sel hh_sel 10 1000 1001 1002 -1
+0fex end
+0wait
+0bg mode
+0cg mode
+0eg mode
+0bg packpl 400+6*2*0
+0cg packpl 400+6*2*1
+0eg packpl 400+6*2*2
+0fg
+0pl 10
+0pl 30
+0pl 2 blend 255
+0pl [1-5] disp 1
+0wbreak 40 16 16 400 200
+0wait 1
+0bgm 0 end 40
+0se 5 se913
+0wait
+0frameon fade 20
+0wait
+0#30 = 0
+0#31 = 0
+0#32 = 0
+0#33 = 0
+0if (#10==0) next ST_01a
+0if (#10==1) next ST_01b
+0if (#10==2) next ST_01c
+0if (#10==3) next 

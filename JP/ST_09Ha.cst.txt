@@ -1,0 +1,99 @@
+0#90 = 1
+0#300 = 1 
+0eg 4
+0pl 15 pos 1224 588
+0eg 0 hb03l,1,4,3,1,3
+0rdraw 40
+!久司朗
+ 「はあっ……す、翠名さん……い、行くよ……」
+<CLS>
+0pcm B_ST_09H_148
+!翠名
+ 「で、でしたら……っはぁ、な、中に……
+ \nくっ、くださいっ」
+<CLS>
+0pcm B_ST_09H_149
+!翠名
+ 「……んんっ、わたしの……はぁっ！」
+<CLS>
+ 彼女の言葉を皮切りに、最後に残った理性の糸が、
+ \nぷつんと切れた。
+<CLS>
+!久司朗
+ 「くはぁっ！？」
+<CLS>
+ 俺は自身をその奥深くまで埋め、
+ \nそこで欲望を爆ぜさせた。
+<CLS>
+0eg 4 hb03,1,4,3,1,3
+0rdraw 30
+ そして、彼女の最深部に自分でも呆れるくらいの
+ \n大量の精液を注ぎ込む。
+<CLS>
+0pl 31 disp 1
+0eg 4 hb03,1,4,3,1,3,2
+0rdraw 8
+ びゅくっ！　びゅくびゅくっ！　びゅくんっ！！\@
+0wait
+0pl 31 disp 0
+0rdraw 10
+0wait
+0pl 31 disp 1
+0rdraw 8
+0wait
+0pl 31 disp 0
+0rdraw 10
+0wait
+0pl 31 disp 1
+0rdraw 8
+0wait
+0pl 31 disp 0
+0rdraw 20
+ 
+<CLS>
+0pl 31 disp 1
+0rdraw 8
+0pcm B_ST_09H_150
+!翠名
+ 「久司朗、くん……あっ、あっ……あぁぁぁぁぁっ」\@
+0wait
+0pl 31 disp 0
+0rdraw 10
+0wait
+0pl 31 disp 1
+0rdraw 8
+0wait
+0pl 31 disp 0
+0rdraw 10
+0wait
+0pl 31 disp 1
+0rdraw 8
+0wait
+0pl 31 disp 0
+0rdraw 10
+0wait
+0pl 31 disp 1
+0rdraw 8
+0wait
+0pl 31 disp 0
+0rdraw 10
+0wait
+0pl 31 disp 1
+0rdraw 8
+0wait
+0pl 31 disp 0
+0rdraw 10
+0wait
+0wait 40
+0pl 31 disp 1
+0rdraw 8
+0wait
+0eg 4 hb03,1,4,3,1,3,1
+0pl 31 disp 0
+0rdraw 60
+ 
+<CLS>
+ 最奥に熱いものを浴びせかけられて、
+ \n翠名もまた限界に達した。
+<CLS>
+0next ST_09H_2
