@@ -1,0 +1,133 @@
+0if (#300 == 1) eg 4 hb03,1,3,2,1,3,1
+0if (#300 == 0) eg 4 hb03,2,3,2,1,5
+0rdraw
+0pcm B_ST_09H_155
+!翠名
+ 「ん……はふぅ……」
+<CLS>
+!久司朗
+ 「はぁ、はぁ、はぁ…………ふぅ……」
+<CLS>
+ 流石に大変だった。
+<CLS>
+ が、翠名のこういう乱れた姿というのは、
+ \n俺しか見ることが出来ないのだろう。
+<CLS>
+ そう思うと……たまらなく誇らしくなった。
+<CLS>
+0if (#300 == 1) eg 4 hb03,1,5,4,1,3,1
+0if (#300 == 0) eg 4 hb03,2,5,4,1,5
+0rdraw
+0pcm B_ST_09H_156
+!翠名
+ 「はふ……久司朗くん……」
+<CLS>
+!久司朗
+ 「ん、翠名さん」
+<CLS>
+0eg 4
+0pl 15 pos 1337 494
+0if (#300 == 1) eg 4 hb03,1,5,1,1,3,1
+0if (#300 == 0) eg 4 hb03,2,5,1,1,5
+0rdraw 40
+ その頭を撫でると、嬉しそうな笑みを浮かべる。
+<CLS>
+0pcm B_ST_09H_157
+!翠名
+ 「……大好き、ですよ」
+<CLS>
+!久司朗
+ 「ああ。俺もだよ」
+<CLS>
+ ――葉月翠名。
+<CLS>
+ 俺を、恋に落とした少女。
+<CLS>
+!久司朗
+ 「これからも」
+<CLS>
+0if (#300 == 1) eg 4 hb03,1,1,1,1,3,1
+0if (#300 == 0) eg 4 hb03,2,1,1,1,5
+0rdraw
+0pcm B_ST_09H_158
+!翠名
+ 「はい？」
+<CLS>
+!久司朗
+ 「これからも、大事にするからな」
+<CLS>
+0pcm B_ST_09H_159
+!翠名
+ 「あ……」
+<CLS>
+ 翠名の瞳が、[滲/にじ]むように潤んで。
+<CLS>
+0eg 4
+0if (#300 == 1) eg 0 hb03l,1,1,1,1,3,1
+0if (#300 == 0) eg 0 hb03l,2,1,1,1,5
+0rdraw 40
+0pcm B_ST_09H_160
+!翠名
+ 「……はいっ！」
+<CLS>
+ 全力の返事で、俺に抱きついてきたのだった。
+<CLS>
+0#41 = 10
+0if (#40 == 1) next rc_end
+0end_of_kaisou #41
+0bgm 0 end 240
+0frameoff fade 40
+0wait
+0wait
+0wait 30
+0pl 31 disp 1
+0rdraw 80
+0wait
+0bg 
+0cg 
+0fg 
+0eg 
+0pl 
+0rdraw 80
+0wait
+0view 1
+0#300 = 1
+0initialize_header
+0particle stop
+0place
+0wait
+0bgm
+0se
+0bg
+0cg
+0fg
+0eg
+0fw
+0pl
+0wait
+0bg tone
+0cg tone
+0fg tone
+0eg tone
+0wait
+0autoface on
+0wait
+0drawdef 15
+0wipedef 40
+0wait
+0wait 120
+0dic_reg 8 はづきすいな
+0dic_reg 1 ふぁーすときす
+0dic_reg 2 ふぁーすときす
+0dic_reg 1 しょーつ
+0if (#90==1) dic_reg 1 なかだし
+0if (#90==2) dic_reg 1 そとだし
+0#90 = 0
+0pl 1 disp 0
+0if (#91) fex inf2js dicinfo 0
+0if (#91) fex end
+0dic_reset_apend
+0#91 = 0
+0pl 1 disp 1
+0if (#110 == 1) next ST_b10
+0next ST_10

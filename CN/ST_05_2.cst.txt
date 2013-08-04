@@ -1,0 +1,64 @@
+0bg [1-5]
+0cg [1-5]
+0fg [1-5]
+0eg [1-5]
+0pl [1-5]
+0pl 0
+0bg 0 bg90a_11
+0rdraw 30
+ それぞれがそれぞれの時を重ねて――。
+<CLS>
+0bg 0 bg90c_11
+0rdraw 40
+ こうして、連休の一日目は穏やかに過ぎ去っていった。
+<CLS>
+0frameoff fade 30
+0wait
+0bgm 0 end 100
+0bgm 1 end 100
+0bg 
+0cg 
+0fg 
+0eg 
+0pl 
+0rdraw 100
+0wait
+0wait 60
+0dic_reg 1 みずぎ
+0dic_reg 1 かりすまちっくらいばる
+0if (#90==1) dic_reg 1 ひやけどめ
+0if (#90==2) dic_reg 1 ほんとうにこわいかいなんじこ
+0if (#90==2) dic_reg 1 やまでまよったときによむほん
+0if (#90==3) dic_reg 1 がんみ
+0#90 = 0
+0pl 1 disp 0
+0if (#91) fex inf2js dicinfo 0
+0if (#91) fex end
+0dic_reset_apend
+0#91 = 0
+0pl 1 disp 1
+0initialize_header
+0particle stop
+0place
+0wait
+0bgm
+0se
+0bg
+0cg
+0fg
+0eg
+0fw
+0pl
+0wait
+0bg tone
+0cg tone
+0fg tone
+0eg tone
+0wait
+0autoface on
+0wait
+0drawdef 15
+0wipedef 40
+0wait
+0if ((#112 >= 3) || (#113 >= 3)) next ST_061
+0next ST_06

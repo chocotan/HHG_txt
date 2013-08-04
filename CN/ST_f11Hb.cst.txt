@@ -1,0 +1,124 @@
+ このまま胸の中で果てることに決めた。
+<CLS>
+0se 0 se900a
+0eg 2 def 16
+0eg 2 hf01l,a,4,3
+0rdraw 40
+0pcm F_ST_F11H_035
+!詩子
+ 「はぁ……ふぅ……んっ……あ……」\@
+0wait
+0wait 40
+0se 1 se900a
+0wait 70
+0se 2 se900a
+ 
+<CLS>
+ 詩子の奉仕が一層激しくなった。
+<CLS>
+0se 0 se900a
+ 柔肉の間に包まれる俺自身に
+ \nしびれるほどの甘美な刺激を与えてくる。\@
+0wait
+0wait 60
+0se 1 se900a
+0wait 60
+0se 2 se900a
+ 
+<CLS>
+ つられて高まる射精感。
+<CLS>
+ もういくらも持ちそうになかった。
+<CLS>
+!久司朗
+ 「うぅ……で、でる！」
+<CLS>
+ 叫ぶと同時に俺は腰をグッと突き出した。
+<CLS>
+ そして、次の瞬間。
+<CLS>
+0frameoff fade 10
+0wait
+0pl 31 disp 1
+0eg 2 hf01l,a,4,3,0,a
+0rdraw 8
+0wait
+0pl 31 disp 0
+0rdraw 12
+0wait
+0pl 31 disp 1
+0rdraw 8
+0wait
+0pl 31 disp 0
+0rdraw 12
+0wait
+0pl 31 disp 1
+0rdraw 8
+0wait
+0pl 31 disp 0
+0rdraw 50
+0wait
+0eg 2 hf01l,a,4,4,0,a
+0rdraw
+0pcm F_ST_F11H_036
+!詩子
+ 「あっ……」
+<CLS>
+0pl 31 disp 1
+0rdraw 8
+ どく、どく、どく……どくん。\@
+0wait
+0pl 31 disp 0
+0rdraw 12
+0wait
+0pl 31 disp 1
+0rdraw 8
+0wait
+0pl 31 disp 0
+0rdraw 12
+0wait
+0pl 31 disp 1
+0rdraw 8
+0wait
+0pl 31 disp 0
+0eg 2 hf01l,a,4,4,0,b
+0rdraw 50
+ 
+<CLS>
+0eg 2
+0eg 0 hf01,a,4,4,0,b
+0rdraw 40
+ 二度目だというのに、
+ \nその量は自分でも驚くほどで。
+<CLS>
+ 堰を切ったかのような勢いで、放出された
+ \n白い液体が詩子の胸の間に小さな泉を作り上げた。
+<CLS>
+!久司朗
+ 「はぁ……はぁ……」
+<CLS>
+0eg 0 hf01,a,2,2,0,b
+0rdraw 30
+0pcm F_ST_F11H_037
+!詩子
+ 「……いっぱい……出したのね……」
+<CLS>
+0eg 0 hf01,a,2,1,0,b
+0rdraw
+0pcm F_ST_F11H_038
+!詩子
+ 「そんなに……良かったの？」
+<CLS>
+!久司朗
+ 「えぇ……最高でした」
+<CLS>
+0eg 0 hf01,a,6,2,0,b
+0rdraw
+0pcm F_ST_F11H_039
+!詩子
+ 「そう。……なら、良かったわ」
+<CLS>
+ 慈愛に満ちた笑みを口元にたたえて、
+ \n詩子はそう言った。
+<CLS>
+0next ST_f11H_2
